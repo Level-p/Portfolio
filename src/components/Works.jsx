@@ -18,11 +18,7 @@ function Works() {
         <div className="max-w-5xl mx-auto">
          <div className="hero min-h-screen text-black">
           <div className="hero-content flex-col md:flex-row-reverse">
-<<<<<<< HEAD
             <img src={img3} alt='' className="md:max-w-lg  object-contain rounded-lg shadow-2xl" />
-=======
-            <img src={img3} alt='' className="md:max-w-sm  object-contain rounded-lg shadow-2xl" />
->>>>>>> 766e2d9aa2dc38ee98ae5fd04301235ae4f9a05e
             <div>
               <h1 className="text-5xl font-bold">About me</h1>
               <p className="py-6 leading-10 px-2">

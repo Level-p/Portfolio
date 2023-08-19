@@ -6,11 +6,8 @@ function Footer() {
   return (
     <footer className='bg-slate-100 '>
         <div className="max-w-6xl mx-auto px-4 py-6">
-<<<<<<< HEAD
           <div className="flex flex-col md:flex-row items-center justify-between">
-=======
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
->>>>>>> 766e2d9aa2dc38ee98ae5fd04301235ae4f9a05e
             <p className="text-lg text-gray-900"> &copy; Copyright 2023. All Rights Reserved  </p>
 
             <div className="flex justify-center space-x-5">
@@ -28,6 +25,7 @@ function Footer() {
             </Link> 
             </div>
           </div>
+        </div>
         </div>
     </footer>
   )
