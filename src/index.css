@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro {
+    background-image: url('./components/assets/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 576px) {
+    .intro {
+        background-image: url('./components/assets/bg-header-mobile.png');
+    }
+}
+
+.yes {
+         @apply relative overflow-hidden;
+    }
+
+    .yes:hover img {
+        transform: scale(1.2);
+        transition: transform 1.8s ease-out;
+    }
+
+    
+ .skillBox {
+    box-sizing: border-box;
+    margin: 20px 0;
+ }   
+
+ .ficon:hover {
+  filter: invert(53%) sepia(28%) saturate(3303%) hue-rotate(326deg)
+    brightness(101%) contrast(96%);
+}
+
+ .skillBox p {
+    color: #333;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+   letter-spacing: 2px; 
+   font-weight: bold; 
+ }
+
+ .skillBox p:nth-child(2) {
+    float: right;
+    position: relative;
+    top: -25px;
+ }
+
+ .skill {
+    @apply  p-4 border-2 border-orange-400 h-[55px] box-border relative
+ }
+
+ .skill-level{
+    @apply bg-orange-200 h-full w-full absolute inset-0
+ }
