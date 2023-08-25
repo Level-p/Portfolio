@@ -46,7 +46,7 @@ function Works() {
     </section>
 
     <Skills/>
-    <Abilities/>
+    {/* <Abilities/> */}
     <YearsofExperience/>
     <Projects/>
     <SampleWorks/>
