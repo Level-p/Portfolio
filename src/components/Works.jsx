@@ -1,11 +1,7 @@
 import React from 'react'
-import img1 from "./assets/steven.jpg"
-import img3 from "./assets/steve3.jpg"
-import img4 from "./assets/steve4.jpg"
-import img6 from "./assets/steve6.jpg"
+import img3 from "./assets/WhatsApp Image 2023-10-21 at 19.39.37_6955bd1b.jpg"
 import Skills from './Skills'
 import YearsofExperience from './YearsofExperience'
-import Abilities from './Abilities'
 import Projects from './Projects'
 import SampleWorks from './SampleWorks'
 
@@ -28,20 +24,7 @@ function Works() {
       </div>
     </div>
 
-          <div className="hidden md:flex md:flex-row items-center justify-center space-x-16 mt-8">
-
-              <div className="h-80 w-60 yes rounded-md">
-                  <img src={img1}alt="" className='absolute inset-0 h-full w-full'/>
-              </div>
-
-              <div className="h-80 w-60 yes rounded-md">
-                  <img src={img4}alt="" className='absolute inset-0 h-full w-full'/>
-              </div>
-
-              <div className="h-80 w-60 yes rounded-md">
-                  <img src={img6}alt="" className='absolute inset-0 h-full w-full'/>
-              </div>
-          </div>
+          
         </div>
     </section>
 
@@ -49,7 +32,7 @@ function Works() {
     {/* <Abilities/> */}
     <YearsofExperience/>
     <Projects/>
-    <SampleWorks/>
+    <SampleWorks/>4
     </div>
   )
 }
