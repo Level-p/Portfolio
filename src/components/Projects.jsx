@@ -8,6 +8,7 @@ import studio from "./portfoli screenshots/Screenshot (13).png"
 import clipboard from "./portfoli screenshots/Screenshot (14).png"
 import hamster from "./portfoli screenshots/Screenshot (15).png"
 import gamesWeb from "./portfoli screenshots/Screenshot (16).png"
+import Lesley from "./portfoli screenshots/Screenshot (27).png"
 
 function Projects() {
   return (
@@ -135,7 +136,7 @@ function Projects() {
                             </div>
                     </div>
 
-                    <div className="flex flex-col w-[22rem] lg:w-[40rem] lg:relative lg:translate-x-56">
+                    <div className="flex flex-col w-[22rem]">
                                 <div className="card w-full bg-slate-50 shadow-xl">
                                     <figure className="h-60 w-full yes">
                                         <img src={gamesWeb} alt="Shoes" className="rounded-xl absolute inset-0 h-full w-full" />
@@ -153,6 +154,24 @@ function Projects() {
                                 </div>
                     </div>
                    
+
+                    <div className="flex flex-col w-[22rem]">
+                                <div className="card w-full bg-slate-50 shadow-xl">
+                                    <figure className="h-60 w-full yes">
+                                        <img src={Lesley} alt="Shoes" className="rounded-xl absolute inset-0 h-full w-full" />
+                                    </figure>
+                                    <div className="card-body items-center text-center">
+                                        <h2 className="card-title">Lesley Meals</h2>
+                                        <p>This website is a resturant website that was built with firebase, mealdbapi reactleaflet, daisy UI, joy UI, material UI</p>
+                                        <p><span className="font-bold">Note</span>: it requires users authorization and sign up to use</p>
+                                        <div className="card-actions">
+                                            <Link to={'https://resturant-app-three-inky.vercel.app//'} target='_blank' className='btn btn-ghost border-2 hover:btn-accent hover:text-white border-accent w-full'>
+                                                    View
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
            </div>
         </div>
     </section>
