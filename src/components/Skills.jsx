@@ -11,7 +11,7 @@ function Skills() {
             <div>
               <h1 className="text-5xl font-bold">Skills</h1>
               <p className="py-6 leading-8 px-2">
-              - Proficient in HTML, CSS, SASS, Post CSS, Tailwind CSS, JavaScript, Firebase
+              - Proficient in HTML, CSS, SASS, Post CSS, Tailwind CSS, JavaScript, Firebase,
                 React.JS.
                 - Experience with Adobe Photoshop for graphic design and image optimization.
                 - Strong grasp of responsive and mobile-first design principles.
