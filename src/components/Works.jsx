@@ -32,7 +32,7 @@ function Works() {
     {/* <Abilities/> */}
     <YearsofExperience/>
     <Projects/>
-    <SampleWorks/>4
+    <SampleWorks/>
     </div>
   )
 }
